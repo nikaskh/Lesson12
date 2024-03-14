@@ -1,0 +1,23 @@
+.first-conteiner,
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-ul li{
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+.nav-ul li a{
+    color: black;
+}
+.sell-button{
+    background-color: #29B24E;
+    border-color: #29B24E;
+    padding: 13px 26px 13px 26px;
+    border-radius: 12px;
+    color: white;
+}
+.nav-ul li:hover{
+    border-bottom: #29B24E 2px solid;
+}

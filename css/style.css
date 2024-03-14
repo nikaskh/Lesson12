@@ -1,0 +1,25 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    size: 1920px;
+    background-color: #F2F2F2;
+    margin-left: 50px;
+}
+.first-section{
+    margin-top: 50px;
+}
+.input-main-div{
+    background-color: white;
+    padding: 15px;
+    border-radius: 24px;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+}
+.first-section-span{
+    color: grey;
+}
