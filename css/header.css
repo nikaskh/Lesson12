@@ -1,25 +1,27 @@
-
-.first-conteiner,
+.header-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav-ul{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav-ul li{
-    margin-right: 30px;
-    padding-bottom: 10px;
-    font-family: Poppins-Medium;
 }
 .nav-ul li a{
+    margin-right: 48px;
+    font-family: poppins-regular;
     color: black;
 }
-.sell-button{
+.sell-something-button{
     background-color: #29B24E;
-    border-color: #29B24E;
-    padding: 13px 26px 13px 26px;
-    border-radius: 12px;
+    border: none;
     color: white;
+    border-radius: 12px;
+    padding: 13px 26px 13px 26px;
 }
-.nav-ul li:hover{
-    border-bottom: #29B24E 2px solid;
+.logo{
+    max-width: 48px;
+    width: 100%;
+}
+.nav-ul li a:hover{
+    border-bottom: solid #29B24E;
 }
