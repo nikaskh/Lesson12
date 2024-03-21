@@ -93,6 +93,9 @@ h4{
     flex-direction: column;
     text-align: center;
 }
+.second-section-article a{
+    color: black;
+}
 .second-section-article{
     background-color: #29B24E;
     display: inline-block;
@@ -113,7 +116,8 @@ h4{
 .second-section-description{
     padding-top: 8px;
     text-align: left;
-    padding-left: 20px
+    padding-left: 20px;
+    color: grey;
 }
 .second-section-price{
     padding-top: 15px;
