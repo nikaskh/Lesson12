@@ -1,3 +1,7 @@
+header{
+    margin-left: 140px;
+    margin-right: 138px;
+}
 .header-main-div{
     display: flex;
     justify-content: space-between;
@@ -23,5 +27,5 @@
     width: 100%;
 }
 .nav-ul li a:hover{
-    border-bottom: solid #29B24E;
+    border-bottom:2px solid #29B24E;
 }
