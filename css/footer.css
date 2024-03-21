@@ -1,0 +1,23 @@
+footer{
+    background-color: #29B24E;
+    border-radius: 24px;
+    font-family: poppins-regular;
+}
+ul li a{
+    color: white;
+}
+.footer-conteiner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D0D0D0;
+}
+.footer-conteiner ul{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.footer-conteiner ul li{
+    padding-right: 48px;
+}
