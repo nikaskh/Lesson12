@@ -23,7 +23,8 @@ ul li a{
 }
 @media (max-width:768px) {
     body{
-        width: 768px;
+        width: 375px;
+
     }
     .mail{
         display: none;
@@ -33,6 +34,10 @@ ul li a{
         flex-direction: column;
         padding-left: 20px;
         margin: 0;
+    }
+    .footer-conteiner{
+        display: flex;
+        justify-content: space-between;
     }
     .footer-nav ul{
         display: flex;

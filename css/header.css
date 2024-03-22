@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 .nav-ul{
     display: flex;
+    margin-left: 100px;
 }
 .nav-ul li a{
     margin-right: 48px;
@@ -38,9 +41,5 @@
     }
     .header-search{
         opacity: 1;
-    }
-    .first-section-main-div{
-        display: flex;
-        flex-direction: column-reverse;
     }
 }
