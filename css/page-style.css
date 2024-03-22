@@ -107,3 +107,35 @@ section{
     background-color: #29B24E;
     color: white;
 }
+@media (max-width:768px) {
+    body{
+        width: 100%;
+    }
+    .nav-ul,
+    .header-main-div button{
+        display: none;
+    }
+    .header-search{
+        opacity: 1;
+    }
+    .first-page-conteiner,
+    .last-three-ul-div,
+    .price-div,
+    .button-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .data-div,
+    .first-photo{
+        width: 150%;
+    }
+    .last-first-ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .button-div a{
+        text-align: center;
+        margin-top: 20px;
+    }
+}

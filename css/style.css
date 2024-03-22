@@ -9,7 +9,7 @@ body{
     width: 1920px;
     background-color: hsl(0, 0%, 95%);
     overflow-x: hidden;
-}
+} 
 .first-section-main-div{
     display: flex;
     justify-content: center;
@@ -157,9 +157,15 @@ h4{
     padding: 11px;
     border-radius: 24px;
 }
+.footer-nav{
+    display: none;
+}
 @media (max-width:768px) {
     body{
-        width: 375px;
+        width: 100%;
+    }
+    .first-section{
+        width: 100%;
     }
     .header-main-div{
         margin: 0;
@@ -181,7 +187,7 @@ h4{
         padding: 0;
     }
     .article-div{
-        width: 30%;
+        width: 70%;
     }
     .section-photo{
     max-width: 335px;
@@ -197,5 +203,7 @@ h4{
     .article-div p{
         font-size: 12px;
     }
-
+    .footer-nav{
+        display: block;
+    }
 }
