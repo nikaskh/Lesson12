@@ -13,6 +13,10 @@ body{
 section{
     margin-top: 58px;
 }
+.section-photo{
+    max-width: 810px;
+    width: 100%;
+}
 .first-page-conteiner{
     display: flex;
     justify-content: center;

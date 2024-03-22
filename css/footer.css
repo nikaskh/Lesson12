@@ -21,3 +21,41 @@ ul li a{
 .footer-conteiner ul li{
     padding-right: 48px;
 }
+@media (max-width:768px) {
+    .mail{
+        display: none;
+    }
+    .footer-conteiner ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        margin: 0;
+    }
+    .footer-nav ul{
+        display: flex;
+        position: relative;
+    }
+    .footer-nav ul li{
+        margin-right: 35px;
+    }
+    .footer-nav{
+        background: white;
+        position: absolute;
+        border-radius: 12px;
+        margin-top: 64px;
+        padding-left: 20px;
+    }
+    .footer-nav ul li:nth-child(3) img{
+        background-color: green;
+        margin: 0;
+        padding: 12px;
+    }
+    .footer-nav ul li:nth-child(3){
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: -30px;
+        left: 150px;
+        text-align: center;
+    }
+}
