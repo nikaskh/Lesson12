@@ -189,6 +189,12 @@ h4{
     .article-div{
         width: 70%;
     }
+    .second-section-img{
+        width: 100%;
+    }
+    .article-main-div{
+        margin-left: 20px;
+    }
     .section-photo{
     max-width: 335px;
     width: 100%;
