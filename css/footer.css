@@ -34,6 +34,7 @@ ul li a{
         flex-direction: column;
         padding-left: 20px;
         margin: 0;
+        padding-right: 0;
     }
     .footer-conteiner{
         display: flex;
@@ -44,7 +45,10 @@ ul li a{
         position: relative;
     }
     .footer-nav ul li{
-        margin-right: 35px;
+        padding-right: 35px;
+    }
+    .footer-ul{
+        text-align: right;
     }
     .footer-nav{
         display: flex;

@@ -10,6 +10,13 @@ body{
     background-color: hsl(0, 0%, 95%);
     overflow-x: hidden;
 }
+.header-main-div-page{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+    align-items: center;
+}
 section{
     margin-top: 58px;
 }
@@ -50,6 +57,16 @@ section{
     padding-left: 40px;
 }
 .data-div h1{
+    padding-left: 40px;
+}
+.data-div-first-p{
+    margin-top: 12px;
+    color: grey;
+    padding-left: 40px;
+}
+.data-div-second-p{
+    margin-top: 32px;
+    width: 60%;
     padding-left: 40px;
 }
 .last-three-ul-div{
@@ -107,35 +124,92 @@ section{
     background-color: #29B24E;
     color: white;
 }
+.button-div{
+    padding-right: 40px;
+    text-align: right;
+}
+.second-section-article{
+    display: none;
+}
 @media (max-width:768px) {
     body{
         width: 100%;
     }
-    .nav-ul,
-    .header-main-div button{
+    .header-main-div-page{
+       margin: 0;
+    }
+    .sell-something-button{
         display: none;
     }
-    .header-search{
-        opacity: 1;
-    }
     .first-page-conteiner,
-    .last-three-ul-div,
     .price-div,
     .button-div{
         display: flex;
         flex-direction: column;
     }
-    .data-div,
     .first-photo{
-        width: 150%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 42px;
+    }
+    .section-photo{
+        max-width: 335px;
+        width: 100%;
+    }
+    .first-ul li{
+        margin-right: 38px;
+    }
+    .data-div{
+        width: 100%;
+    }
+    .data-div h1,
+    .data-div-first-p,
+    .data-div-second-p{
+        padding-left: 20px;
+    }
+    .data-div-second-p{
+        width: 100%;
+    }
+    .first-ul li:nth-child(1){
+        background-color: #29B24E;
+        padding: 10px;
+        border-radius: 24px;
+        color: white;
+    }
+    .second-ul li{
+        padding-right: 0;
+        padding-left: 8px;
+    }
+    .last-three-ul-div{
+        display: flex;
+        flex-direction: column;
     }
     .last-first-ul li{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
+    .last-second-ul li{
+        text-align: right;
+    }
+    .last-second-ul h5{
+        color: grey;
+    }
+    .button-div{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
+    }
     .button-div a{
+        width: 100%;
         text-align: center;
-        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+    .second-section-article{
+        display: block;
+        margin-left: 20px;
+    }
+    .second-section-img{
+        width: 100%;
     }
 }
