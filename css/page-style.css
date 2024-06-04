@@ -6,9 +6,9 @@
     padding: 0;
 }
 body{
-    width: 1920px;
     background-color: hsl(0, 0%, 95%);
     overflow-x: hidden;
+    margin: 0 auto;
 }
 .header-main-div-page{
     display: flex;
