@@ -1,3 +1,4 @@
+
 let slideIndex = 0;
 const slides = document.querySelectorAll('.slide');
 
@@ -18,5 +19,8 @@ function nextSlide() {
 function prevSlide() {
     showSlide(--slideIndex);
 }
+
+
+setInterval(nextSlide, 3000);
 
 showSlide(slideIndex);

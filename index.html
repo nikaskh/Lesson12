@@ -9,6 +9,7 @@
     <meta property="og:description" content="website for house">
     <meta property="og:image" content="https://raw.githubusercontent.com/nikaskh/Lesson12/main/img/meta-logo.png">
     <title>Lesson12</title>
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
@@ -29,22 +30,22 @@
              <a class="sell-something-button" href="signin.html" target="_blank">შესვლა</a> 
         </div>  
     </header>
-    <section class="first-section">
-            <div>
-                <article class="section-article">
-                    <div class="article-div">
-                        <h1>ბინები და აგარაკები თქვენთვის</h1>
-                        <p>ყიდვა გაქირავების პლატფორმა</p>
-                        <div class="search-div">
-                            <input type="search" placeholder="Search..." class="search">
-                            <img src="img/search.svg" alt="" class="search-photo">
-                        </div>
-                    </div>      
-                   <img src="img/Rectangle 400.svg" alt="city" class="section-photo">
-                </article>
+    <section class="first-section-slide">
+        <div class="slider">
+            <div class="slide">
+                <img src="img/Rectangle 541.svg" class="slide-img" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="img/Rectangle 425.svg" class="slide-img" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="img/Rectangle 431.svg" class="slide-img" alt="Slide 3">
             </div>
         </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
     </section>
+
     <!-- start second section -->
     <section>
         <div class="second-section-div">
@@ -196,11 +197,12 @@
                 <li><a href="index.html">მთავარი</a></li>
                 <li><a href="#">ჩვენს შესახებ</a></li>
                 <li><a href="contactus.html">კონტაქტი</a></li>
-                <li><a href="#">შესვლა</a></li>
+                <li><a href="signin.html">შესვლა</a></li>
             </ul>
             <a href="mailtoSupport@Roberts.com" style="padding-top: 32px; color: white;" class="mail">Created by:skhiladze.n@gtu.ge</a>
             <ul class="footer-ul">
             </ul>
     </footer>
+    <script src="JS/slider.js"></script>
 </body>
 </html>
