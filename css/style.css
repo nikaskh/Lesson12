@@ -6,7 +6,8 @@
     padding: 0;
 }
 body{
-    width: 1920px;
+    margin: 0 auto;
+    width: 100%;
     background-color: hsl(0, 0%, 95%);
     overflow-x: hidden;
 } 
@@ -29,23 +30,8 @@ body{
     margin-left: 20px;
     border-radius: 24px;
 }
-.checkbox-div{
-    padding-bottom: 10px;
-    font-family: poppins-regular;
-}
-.select{
-    margin-bottom: 32px;
-    padding-left: 18px;
-    padding-top: 13px;
-    padding-bottom: 14px;
-    width: 100%;
-    border-color: #0D9CA436;
-}
-.select option{
-    font-family: poppins-regular;
-}
-.checkbox{
-    accent-color: #29B24E;
+.first-section {
+    margin-top: 100px;
 }
 label span{
     color: grey;
